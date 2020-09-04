@@ -101,7 +101,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.box1 {
     width: 12.5%;
     height: 100px;
     background: teal;
@@ -111,10 +111,101 @@ p {
     align-items: center;
     justify-content: center;
 }
-
-.middle-content .boxes .box1{
-    background-color:red;
+.box2{
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.box3{
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box4{
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box5{
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6{
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box7{
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8{
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box9{
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10{
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 
@@ -168,21 +259,65 @@ nav a{
     width: 1px;
     text-decoration: none;
 }
-nav img{
-    display: inline;
+
+
+.header img{
+    width:700px;
+    padding-left:548px;
+        
+}
+
+
+header nav{
+    margin-bottom: 50px;
+    align-items:center;
+    padding-right:530px;
+    padding-left:300px;
+    margin-left:100px;
     
+
+}
+header nav img{
+    padding-left:20px;
+    margin-bottom:15px;
+    margin-right:-100px;
 }
 
 
 .headerimg{
-    display: flex;
-    justify-content:center ;
+    width:700px;
+    padding-left:548px;
+        
 }
 
 
 .aboutheader nav{
     margin-bottom: 50px;
+    align-items:center;
+    padding-right:530px;
+    padding-left:300px;
+    margin-left:100px;
+    
+
 }
+.aboutheader nav img{
+    padding-left:20px;
+    margin-bottom:15px;
+    margin-right:-100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .aboutsec h2{
     font-weight: 500;
@@ -196,20 +331,10 @@ nav img{
     border-bottom:1px dashed black;
 }
 
-.firstgroup{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  
-}
-.secondp{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
+
 
 .lwt{
-    margin-top:80px;
+    margin-top:45px;
 }
 
 .overall a{
@@ -224,19 +349,71 @@ nav img{
     font-size: 17px;
 }
 
-.secondt{
-    width:250px;
+
+footer nav a{
+    margin-left:115px;
 }
 
-.collab{
-    border-bottom:1px dashed black;
-    padding-bottom:25px;
+.firstgroup{
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondp{
+    display: flex;
+    justify-content: space-between;
 }
 
 .pww{
+    display: flex;
+    flex-wrap:wrap;
+    width:350px;
+    margin-top:3%;
     border-bottom:1px dashed black;
-    padding-bottom:25px;
-    margin-top: 10px;
+    padding-bottom:20px;
 }
+.collab{
+    display: flex;
+    flex-wrap: wrap;
+    width:350px;
+    margin-left:54%;
+    margin-top:-23%;
+    border-bottom:1px dashed black;
+padding-bottom:35px;
+}
+.firsttxt{
+    display: flex;
+    flex-wrap:wrap;
+    width:350px;
+    margin-top:2%;
+    padding-bottom:21px;
+    border-bottom:1px dashed black;
+    margin-bottom: 38px;
+
+}
+
+.ww{
+    display: flex;
+    flex-wrap:wrap;
+    width:350px;
+    margin-left:54%;
+    margin-top:-26%;
+   border-bottom:1px dashed black;
+   padding-bottom:20px;
+   margin-bottom:20px;
+}
+
+.school a{
+margin-top:13px;
+}
+
+.skyrim a{
+    margin-top:13px;
+}
+
+.school{
+    padding-top:25px;
+}
+
 
 
