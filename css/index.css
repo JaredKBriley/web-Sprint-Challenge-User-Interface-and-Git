@@ -104,13 +104,19 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box1{
+    background-color:red;
+}
+
+
 
 .bottom-content {
     display: flex;
@@ -144,3 +150,93 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    }
+
+.jumbopic{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+nav a{
+    color:black;
+    width: 1px;
+    text-decoration: none;
+}
+nav img{
+    display: inline;
+    
+}
+
+
+.headerimg{
+    display: flex;
+    justify-content:center ;
+}
+
+
+.aboutheader nav{
+    margin-bottom: 50px;
+}
+
+.aboutsec h2{
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+.aboutsec{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+    border-bottom:1px dashed black;
+}
+
+.firstgroup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+}
+.secondp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.lwt{
+    margin-top:80px;
+}
+
+.overall a{
+    text-decoration: none;
+    padding:7px;
+    padding-right: 25px;
+    padding-left: 25px;
+    color:black;
+    border: 2px solid black;
+    border-radius:10px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.secondt{
+    width:250px;
+}
+
+.collab{
+    border-bottom:1px dashed black;
+    padding-bottom:25px;
+}
+
+.pww{
+    border-bottom:1px dashed black;
+    padding-bottom:25px;
+    margin-top: 10px;
+}
+
+
